@@ -1,3 +1,6 @@
+## Code Scrambler
+This project was created for educational means. It is used to created 'scrambled' code so that other's can piece the code back together. It's not intended to be used as an advanced obfuscator but rather a simple educational utility.
+
 ### FLAGS
 * **-file** - Specifies the location of the code to scramble.
   * If the path is a directory, then each file will be scrambled.
@@ -38,4 +41,21 @@ int main()
 ~>}<~
 ```
 In this example, lines 1-4 and 13 will remain fixed in position. On the other hand, lines 5-12 will be scrambled.
-#### Output
+#### Output-Code
+```
+#include <iostream>
+using namespace std;
+int main()
+{
+}
+std::cout << "ODD";
+std::cin >> num;
+std::cout << "EVEN";
+int num;
+if (num % 2 == 0) {
+else {
+}
+}
+```
+#### Output-Image
+![Even Odd Image](media/image_even_odd.png)
