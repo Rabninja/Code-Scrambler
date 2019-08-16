@@ -1,5 +1,8 @@
 ## Code Scrambler
+
 This project was created for educational means. It is used to created 'scrambled' code so that other's can piece the code back together. It's not intended to be used as an advanced obfuscator but rather a simple educational utility.
+
+This project uses SFML to render and highlight the image. In addition, this project only supports C++ as the target language.
 
 ### FLAGS
 * **-file** - Specifies the location of the code to scramble.
