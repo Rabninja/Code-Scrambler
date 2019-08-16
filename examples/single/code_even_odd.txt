@@ -1,0 +1,13 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+}
+std::cout << "ODD";
+std::cin >> num;
+std::cout << "EVEN";
+int num;
+if (num % 2 == 0) {
+else {
+}
+}

@@ -1,0 +1,1 @@
+-file ..\fibonacci.txt -font consola.ttf -diff 1 -border 0 -ppi 300 -fit 1

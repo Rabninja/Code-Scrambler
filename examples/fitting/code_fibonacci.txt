@@ -1,0 +1,14 @@
+cout << "Fibonacci Series: ";
+cin >> n;
+}
+using namespace std;
+t0 = t1 - t0;
+cout << t0 << " ";
+cout << "Enter the number of terms: ";
+return 0;
+int n, t0 = 0, t1 = 1;
+int main() {
+}
+for (int i = 0; i < n; ++i) {
+t1 += t0;
+#include <iostream>
